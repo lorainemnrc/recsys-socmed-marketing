@@ -85,10 +85,10 @@ The necessary details of the scraping process are already detailed in the `main`
 <h1 style="color: #1048CB"><b>Highlights</b></h1>
 
 <p align="justify">
-&emsp;Influencers can be categorized into three groups: (1) <strong><em>News and Entertainment outlets<strong/><em/>, (2) <strong><em>Celebrities<strong/><em/>, and (3) <strong><em>Social Media Micro- and Macro-influencers<strong/><em/>. Different brands and companies will have varying preferences on who to collaborate with, hinged on a few crucial factors: budget, intended reach or scope of influence, and whether or not the influencer's values match theirs. </p>
+&emsp;Influencers can be categorized into three groups: (1) <strong><em>News and Entertainment outlets</em></strong>, (2) <strong><em>Celebrities</em></strong>, and (3) <strong><em>Social Media Micro- and Macro-influencers</em></strong>. Different brands and companies will have varying preferences on who to collaborate with, hinged on a few crucial factors: budget, intended reach or scope of influence, and whether or not the influencer's values match theirs. </p>
 
 <p align="justify">
-&emsp;Depending on the goal, our Content-Based Recommendation system, with an <strong><em>average relevance score of 0.90<strong/><em/>, can guide a brand in choosing the right influencer to partner with in their marketing campaigns. An efficient recommender system can afford brands several advantages. </p>
+&emsp;Depending on the goal, our Content-Based Recommendation system, with an <strong><em>average relevance score of 0.90</em></strong>, can guide a brand in choosing the right influencer to partner with in their marketing campaigns. An efficient recommender system can afford brands several advantages. </p>
 
 <p align="justify">
 &emsp;An influencer whose values, audience, and interests align with the brand's target market ensures efforts are targeted, and the campaign's message reaches the right people. Influencer marketing can be more cost-effective than traditional advertising methods. Although high agency fees and commissions can be a limiting factor, it makes using a recommender system more cost-effective - allowing brands to identify influencers with a suitable audience size and engagement rate that fit their budget. </p>
@@ -97,4 +97,4 @@ The necessary details of the scraping process are already detailed in the `main`
 &emsp; Based on the goals for using it, a business can save man-hours that could've been spent in scouring the social media sites for potential partners. With this system, the business is already given a short list of where to start that is more or less in line with its values as a business. </p>
 
 <p align="justify">
-&emsp; On the inverse, this system can also be used by influencers to look at potential business partners that they can reach out to. This may give them business opportunities that otherwise they would have not gotten. </p>
+&emsp; On the inverse, this system can also be used by influencers to look at potential business partners that they can reach out to. This may give them business opportunities that they would have not gotten. </p>
