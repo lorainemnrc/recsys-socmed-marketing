@@ -12,22 +12,11 @@
 The necessary details of the scraping process is already detailed in the `main` notebook. However, a separate notebook `twitter_data_scraper.ipynb` file which lays out the whole process is also provided for more information.
 
 
-<img src='data.png' height='100'>
-<br style="clear:both" />
-
-<div>
-    <p style="font-size:12px;font-style:default;text-align: center">
-        <b>Figure. Data Source Overview.</b><br>
-        The profiles of the brand and influencers were scraped via Twitter API. Similarly, the tweets of the influencers were collected.
-    </p>
-</div>
-
-<br style="clear:both" />
-
+<img src='data.png' height='600'>
 
 <h1 style="color: #1048CB"><b>Highlights</b></h1>
 
-<h2 style="color: #003b7f"><b>V.A. Influencers and their Tweets</b></h2>
+<h2 style="color: #003b7f"><b>Influencers and their Tweets</b></h2>
 
 
 **Influencers**
@@ -89,7 +78,7 @@ The necessary details of the scraping process is already detailed in the `main` 
 |impression_count|integer|indicates the number of impressions the tweet has garnered
 
 ***
-<h2 style="color: #003b7f"><b>V.B. Brand</b></h2>
+<h2 style="color: #003b7f"><b>Brand</b></h2>
 
 <p style="text-align: justify">
 &emsp;This work considers Dove as the stakeholder who aims to find social media influencers that best match their brand image and values. Moving forward, "Dove" and the "Brand" may be used interchangeably.
