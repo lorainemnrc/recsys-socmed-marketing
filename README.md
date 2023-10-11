@@ -12,9 +12,8 @@
 The necessary details of the scraping process is already detailed in the `main` notebook. However, a separate notebook `twitter_data_scraper.ipynb` file which lays out the whole process is also provided for more information.
 
 
-<img src='data.png' height='600'>
+<img src='data.png' height='400'>
 
-<h1 style="color: #1048CB"><b>Highlights</b></h1>
 
 <h2 style="color: #003b7f"><b>Influencers and their Tweets</b></h2>
 
@@ -22,16 +21,16 @@ The necessary details of the scraping process is already detailed in the `main` 
 **Influencers**
 
 <p style="text-align: justify">
-&emsp;We considered the users that an account follows to be its social network, and defined influencers as users who have **at least 50,000** followers. In this work, 3 social networks were considered as the pool of potential partners that a brand can be matched with - Anne Curtis', Alden Richards, and the brand's itself. Overall, 907 influencers were collected.
+&emsp; We considered the users that an account follows to be its social network, and defined influencers as users who have **at least 50,000** followers. In this work, 3 social networks were considered as the pool of potential partners that a brand can be matched with - Anne Curtis', Alden Richards, and the brand itself. Overall, 907 influencers were collected.
 </p>
 <p style="text-align: justify">
-&emsp;Since Anne Curtis and Alden Richards were among the top 10 most followed Twitter users in the Philippines as of 2016 [1], it was assumed that their social networks could represent a good sample set of influencers in the country. On the other hand, the brand's social circle was also added in the pool of potential partners assuming that they represent influencers that the brand already considers a good match.
+&emsp; Since Anne Curtis and Alden Richards were among the top 10 most followed Twitter users in the Philippines as of 2016 [1], it was assumed that their social networks could represent a good sample set of influencers in the country. On the other hand, the brand's social circle was also added in the pool of potential partners assuming that they represent influencers that the brand already considers a good match.
 </p>
 <p style="text-align: justify">
-&emsp;The `https://api.twitter.com/2/users/:id/following` endpoint was used to get the 3 social networks that make up the 907 pool of influencers. This query returns the profile of each whose contents are described briefly in Table 1.
+&emsp; The `https://api.twitter.com/2/users/:id/following` endpoint was used to get the 3 social networks that make up the 907 pool of influencers. This query returns the profile of each whose contents are described briefly in Table 1.
 </p>
 <br>
-<center style="font-size:12px;font-style:default;"><b>Table 1. Influencer Profile (df_partners) - Data Dictionary</b></center>
+<center style="font-size:12px;font-style:default;"><b>Table 1. Influencer Profile - Data Dictionary</b></center>
 
 |Feature    | Data Type     | Description                                                                           |
 |:--------------|:-------------|:--------------------------------------------------------------------------------------|
@@ -53,13 +52,13 @@ The necessary details of the scraping process is already detailed in the `main` 
 **Tweets**
 
 <p style="text-align: justify">
-&emsp;100 of the most recent tweets of each influencer as of 05 March 2023 was collected. The content of each influencers' tweets were assumed to reflect their ideals, values, and tone. This was used as the basis for evaluating whether an influencer is a good match with the brand. Overall, 88,135 tweets were gathered.
+&emsp;100 of the most recent tweets of each influencer as of 05 March 2023 were collected. The content of each influencer's tweets was assumed to reflect their ideals, values, and tone. This was used as the basis for evaluating whether an influencer is a good match with the brand. Overall, 88,135 tweets were gathered.
 </p>
 <p style="text-align: justify">
-&emsp;The `https://api.twitter.com/2/users/:id/tweets` endpoint was used to get the tweets of each influencer. This contents of the scraped tweets are described briefly in Table 2.
+&emsp;The `https://api.twitter.com/2/users/:id/tweets` endpoint was used to get the tweets of each influencer. The contents of the scraped tweets are described briefly in Table 2.
 </p>
 <br>
-<center style="font-size:12px;font-style:default;"><b>Table 2. Influencer Tweets (df_partner_tweets) - Data Dictionary</b></center>
+<center style="font-size:12px;font-style:default;"><b>Table 2. Influencer Tweets - Data Dictionary</b></center>
 
 |Feature    | Data Type     | Description                                                                           |
 |:--------------|:-------------|:--------------------------------------------------------------------------------------|
