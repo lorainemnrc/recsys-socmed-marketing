@@ -1,4 +1,4 @@
-![socmed_recsys_banner](https://github.com/lorainemnrc/recsys-socmed-marketing/assets/23328647/6e39ee3d-330e-477f-9654-3239cc7a2633)
+![socmed_recsys_banner](https://github.com/lorainemnrc/recsys-socmed-marketing/assets/23328647/790faeb6-f057-47c0-909d-cee007431831)
 
 <h1 style="color: #1048CB"><b>Overview</b></h1>
 
