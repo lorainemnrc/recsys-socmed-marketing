@@ -2,7 +2,7 @@
 
 <h1 style="color: #1048CB"><b>Overview</b></h1>
 
-<p align="justify">&emsp;The effectiveness of influencer marketing is no longer up for debate. However, choosing who to partner with can be a significantly involved and relatively expensive process - not only do companies have to consider the influencers' reach, but more importantly, they have to consider the personality's values and how it aligns with theirs. A typical way for brands to reach influencers is through ad agencies. Agencies usually have a pool of influencers they can tap to partner with clients, and while this may greatly hasten the shortlisting process, agency fees are significant. High agency fees are why some brands choose to contact influencers directly instead. The obvious downside is the time and effort involved in scouting and communicating with potential partners.
+<p align="justify">&emsp;The effectiveness of influencer marketing is no longer up for debate. However, choosing who to partner with can be a significantly involved and relatively expensive process - not only do companies have to consider the influencers' reach, but more importantly, they have to consider the personality's values and how it align with theirs. A typical way for brands to reach influencers is through ad agencies. Agencies usually have a pool of influencers they can tap to partner with clients, and while this may greatly hasten the shortlisting process, agency fees are significant. High agency fees are why some brands choose to contact influencers directly instead. The obvious downside is the time and effort involved in scouting and communicating with potential partners.
 </p>
 <p align="justify">&emsp;Machine learning and information retrieval techniques help alleviate the tedious process of choosing who to partner with and can significantly improve the quality of the outcome. Using a brand's current social network and aggregating networks of the most influential personalities can provide a list of potential celebrity and influencer (micro and macro) partners - greatly streamlining the process and likely cutting on expenses.
  </p>
@@ -16,7 +16,7 @@ The necessary details of the scraping process are already detailed in the `main`
 **Influencers**
 
 <p align="justify">
-&emsp; We considered the users that an account follows to be its social network, and defined influencers as users who have **at least 50,000** followers. In this work, 3 social networks were considered as the pool of potential partners that a brand can be matched with - Anne Curtis', Alden Richards, and the brand itself. Overall, 907 influencers were collected.
+&emsp; We considered the users that an account follows to be its social network, and defined influencers as users who have at least 50,000 followers. In this work, 3 social networks were considered as the pool of potential partners that a brand can be matched with - Anne Curtis', Alden Richards, and the brand itself. Overall, 907 influencers were collected.
 </p>
 <p align="justify">
 &emsp; Since Anne Curtis and Alden Richards were among the top 10 most followed Twitter users in the Philippines as of 2016 [1], it was assumed that their social networks could represent a good sample set of influencers in the country. On the other hand, the brand's social circle was also added in the pool of potential partners assuming that they represent influencers that the brand already considers a good match.
@@ -29,19 +29,19 @@ The necessary details of the scraping process are already detailed in the `main`
 
 |Feature    | Data Type     | Description                                                                           |
 |:--------------|:-------------|:--------------------------------------------------------------------------------------|
-|id|string|unique identifier for each twitter user
-|description|string| twitter bio description
+|id|string|unique identifier for each Twitter user
+|description|string| Twitter bio description
 |created_at|datetime|date of account creation
-|username|string|twitter user username
-|protected|integer|indicates if twitter account is protected or not
-|name|string|real or formal name of twitter user
-|url|string|url link of twitter account
-|location|string|address of twitter user
+|username|string|Twitter user username
+|protected|integer|indicates if Twitter account is protected or not
+|name|string|real or formal name of Twitter user
+|url|string|url link of Twitter account
+|location|string|address of Twitter user
 |followers_count|integer|indicates the number of followers the user has
 |tweet_count|integer|indicates the number of tweets the user has posted
 |listed_count|integer|indicates the number of lists the user is in
-|included|integer|indicates if twitter user is included into the consideration set
-|rating|integer|indicates the rating of twitter user
+|included|integer|indicates if Twitter user is included in the consideration set
+|rating|integer|indicates the rating of Twitter user
 
 
 **Tweets**
@@ -60,7 +60,7 @@ The necessary details of the scraping process are already detailed in the `main`
 |lang|string|indicates the language used for the tweet
 |id|integer| unique identifier of the tweet
 |created_at|datetime|date of creation of the tweet
-|possibly_sensitive|integer|indicates if topic of tweet is sensitive or not
+|possibly_sensitive|integer|indicates if the topic of a tweet is sensitive or not
 |author_id|integer|unique identifier for the author of the tweet
 |conversation_id|integer|unique identifier for the specific tweet and its replies
 |text|string|content of the tweet
