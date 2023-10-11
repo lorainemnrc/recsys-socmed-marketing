@@ -1,4 +1,4 @@
-![banner_purchase_propensity](https://github.com/lorainemnrc/predict-purchase-propensity/assets/23328647/ede5eb16-d905-4dd0-af1d-b3b6abdd9db2)
+![socmed_recsys_banner](https://github.com/lorainemnrc/recsys-socmed-marketing/assets/23328647/6e39ee3d-330e-477f-9654-3239cc7a2633)
 
 <h1 style="color: #1048CB"><b>Overview</b></h1>
 
@@ -19,10 +19,10 @@ The necessary details of the scraping process are already detailed in the `main`
 &emsp; We considered the users that an account follows to be its social network, and defined influencers as users who have at least 50,000 followers. In this work, 3 social networks were considered as the pool of potential partners that a brand can be matched with - Anne Curtis', Alden Richards, and the brand itself. Overall, 907 influencers were collected.
 </p>
 <p align="justify">
-&emsp; Since Anne Curtis and Alden Richards were among the top 10 most followed Twitter users in the Philippines as of 2016 [1], it was assumed that their social networks could represent a good sample set of influencers in the country. On the other hand, the brand's social circle was also added in the pool of potential partners assuming that they represent influencers that the brand already considers a good match.
+&emsp; Since Anne Curtis and Alden Richards were among the top 10 most followed Twitter users in the Philippines as of 2016, it was assumed that their social networks could represent a good sample set of influencers in the country. On the other hand, the brand's social circle was also added in the pool of potential partners assuming that they represent influencers that the brand already considers a good match.
 </p>
 <p align="justify">
-&emsp; The `https://api.twitter.com/2/users/:id/following` endpoint was used to get the 3 social networks that make up the 907 pool of influencers. This query returns the profile of each whose contents are described briefly in Table 1.
+&emsp; The https://api.twitter.com/2/users/:id/following endpoint was used to get the 3 social networks that make up the 907 pool of influencers. This query returns the profile of each whose contents are described briefly in Table 1.
 </p>
 <br>
 <center style="font-size:12px;font-style:default;"><b>Table 1. Influencer Profile - Data Dictionary</b></center>
