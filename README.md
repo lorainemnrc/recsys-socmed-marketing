@@ -9,14 +9,9 @@
 
 <h1 style="color: #1048CB"><b>Data Source</b></h1>
 
-The necessary details of the scraping process is already detailed in the `main` notebook. However, a separate notebook `twitter_data_scraper.ipynb` file which lays out the whole process is also provided for more information.
-
-
-<img src='data.png' height='400'>
-
+The necessary details of the scraping process are already detailed in the `main` notebook. However, a separate notebook `twitter_data_scraper.ipynb` file which lays out the whole process is also provided for more information.
 
 <h2 style="color: #003b7f"><b>Influencers and their Tweets</b></h2>
-
 
 **Influencers**
 
