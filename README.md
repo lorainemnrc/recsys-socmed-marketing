@@ -75,7 +75,7 @@ The necessary details of the scraping process are already detailed in the `main`
 <h2 style="color: #003b7f"><b>Brand</b></h2>
 
 <p align="justify">
-&emsp;This work considers Dove as the stakeholder who aims to find social media influencers that best match their brand image and values. Moving forward, "Dove" and the "Brand" may be used interchangeably.
+&emsp;This work considers Dove as the stakeholder who aims to find social media influencers that best match its brand image and values. Moving forward, "Dove" and the "Brand" may be used interchangeably.
 </p>
 
 <p align="justify">
@@ -85,16 +85,16 @@ The necessary details of the scraping process are already detailed in the `main`
 <h1 style="color: #1048CB"><b>Highlights</b></h1>
 
 <p align="justify">
-&emsp;Influencers can be categorized into three groups: (1) News and Entertainment outlets, (2) Celebrities, and (3) Social Media Micro- and Macro-influencers. Different brands and companies will have varying preferences on who to collaborate with, hinged on a few crucial factors: budget, intended reach or scope of influence, and whether or not the influencer's values match theirs. </p>
+&emsp;Influencers can be categorized into three groups: (1) <strong><em>News and Entertainment outlets<strong/><em/>, (2) <strong><em>Celebrities<strong/><em/>, and (3) <strong><em>Social Media Micro- and Macro-influencers<strong/><em/>. Different brands and companies will have varying preferences on who to collaborate with, hinged on a few crucial factors: budget, intended reach or scope of influence, and whether or not the influencer's values match theirs. </p>
 
 <p align="justify">
-&emsp;Depending on the goal, our Content-Based Recommendation system, with an average relevance score of 0.90, can guide a brand in choosing the right influencer to partner with in their marketing campaigns. An efficient recommender system can afford brands several advantages. </p>
+&emsp;Depending on the goal, our Content-Based Recommendation system, with an <strong><em>average relevance score of 0.90<strong/><em/>, can guide a brand in choosing the right influencer to partner with in their marketing campaigns. An efficient recommender system can afford brands several advantages. </p>
 
 <p align="justify">
 &emsp;An influencer whose values, audience, and interests align with the brand's target market ensures efforts are targeted, and the campaign's message reaches the right people. Influencer marketing can be more cost-effective than traditional advertising methods. Although high agency fees and commissions can be a limiting factor, it makes using a recommender system more cost-effective - allowing brands to identify influencers with a suitable audience size and engagement rate that fit their budget. </p>
 
 <p align="justify">
-&emsp; Based on the goals for using it, a business can save man-hours that could've been spent in scouring the social media sites for potential partners. With this system, the business is already given a short-list of where to start that is more or less in line with their values as a business. </p>
+&emsp; Based on the goals for using it, a business can save man-hours that could've been spent in scouring the social media sites for potential partners. With this system, the business is already given a short list of where to start that is more or less in line with its values as a business. </p>
 
 <p align="justify">
-&emsp;On the inverse, this system can also be used by influencers to look at potential business partners that they can reach out to. This may give them busienss opportutnities that otherwise they would have not gotten. </p>
+&emsp; On the inverse, this system can also be used by influencers to look at potential business partners that they can reach out to. This may give them business opportunities that otherwise they would have not gotten. </p>
